@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Ernest Essel-Kaitoo - Data Scientist</title>
+  <title>Index - Kelly Bootstrap Template</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -22,6 +22,32 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
 
   <link href="assets/css/main.css" rel="stylesheet">
+
+  <style>
+    /* Keeps the hero white and spaced correctly */
+    #hero {
+      width: 100%;
+      min-height: 80vh;
+      background: #fff; 
+      display: flex;
+      align-items: center;
+    }
+    /* Ensures the image sits in the column, not as a background wallpaper */
+    #hero img {
+      width: 100%;
+      height: auto;
+      position: relative; 
+      border-radius: 10px; /* Optional: adds rounded corners to image */
+    }
+    /* Adjusts the text size for the split layout */
+    #hero h2 {
+      font-size: 48px;
+      font-weight: 700;
+      margin-bottom: 20px;
+      color: #37517e;
+    }
+  </style>
+
 </head>
 
 <body class="index-page">
@@ -56,33 +82,19 @@
   <main class="main">
 
     <section id="hero" class="hero section">
-      
-      <div class="container text-center" data-aos="zoom-out" data-aos-delay="100">
-        <div class="row justify-content-center">
-          <div class="col-lg-8">
-            <h2>Ernest Essel-Kaitoo</h2>
-            <p>I'm a Data Scientist, applying machine learning and AI to solve business problems </p>
-            <a href="portfolio.html" class="btn-get-started">Projects</a>
-          </div>
-        </div>
-      </div>
-
-    </section><section id="consulting" class="consulting-banner section light-background">
       <div class="container">
-        <div class="row align-items-center justify-content-between" style="background-color: #f8f9fa; padding: 30px; border-radius: 8px; border: 1px solid #e9ecef;">
+        <div class="row align-items-center justify-content-between">
           
-          <div class="col-lg-8 mb-3 mb-lg-0">
-            <h3>Available for Consulting</h3>
-            <p class="mb-0">
-              Looking for help with data strategy, predictive modeling, or AI integration? 
-              I help organizations turn data into actionable insights.
-            </p>
+          <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="fade-up">
+            <h2>Ernest Essel-Kaitoo</h2>
+            <p style="font-size: 1.2rem; color: #444;">I'm a Data Scientist, applying machine learning and AI to solve business problems.</p>
+            <div class="mt-4">
+              <a href="portfolio.html" class="btn-get-started">Projects</a>
+            </div>
           </div>
 
-          <div class="col-lg-3 text-center text-lg-end">
-            <a href="contact.html" class="btn btn-primary btn-lg">
-              Hire Me
-            </a>
+          <div class="col-lg-5 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="200">
+            <img src="assets/img/hero-bg.jpg" class="img-fluid animated" alt="Hero Image">
           </div>
 
         </div>
@@ -91,7 +103,6 @@
     </main>
 
   <footer id="footer" class="footer light-background">
-
     <div class="container">
       <div class="copyright text-center ">
         <p>© <span>Copyright</span> <strong class="px-1 sitename">Kelly</strong> <span>All Rights Reserved<br></span></p>
@@ -103,7 +114,6 @@
         <a href=""><i class="bi bi-linkedin"></i></a>
       </div>
     </div>
-
   </footer>
 
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
@@ -123,4 +133,5 @@
   <script src="assets/js/main.js"></script>
 
 </body>
+
 </html>
